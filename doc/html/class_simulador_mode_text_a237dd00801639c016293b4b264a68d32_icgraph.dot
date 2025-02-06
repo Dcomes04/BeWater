@@ -1,0 +1,26 @@
+digraph "SimuladorModeText.parsearCoordenades"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SimuladorModeText.parsear\lCoordenades",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Parsea una cadena de texto para convertirla en coordenades."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SimuladorModeText.afegir\lConnexio",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a1b7e6992e2ee07a2ea8e0cc306049ba2",tooltip="Afegeix una connexió a la xarxa."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SimuladorModeText.procesar\lLinea",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a270115afbf646ce8e561f39294b76561",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SimuladorModeText.simular",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BeWater.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590",tooltip="Mètode principal que inicia la simulació en mode text."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SimuladorModeText.afegir\lOrigen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a48a9b93566c58d81fb4b42579a81ccd7",tooltip="Afegeix un origen a la xarxa."];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SimuladorModeText.afegir\lTerminal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a0c84e281d492ecd2b4e0d3a25f06becb",tooltip="Afegeix un terminal a la xarxa."];
+  Node7 -> Node3 [id="edge8_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="SimuladorModeText.comprovar\lProximitat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a8f8187e9996c0082f993823d673a3c09",tooltip="Comprova la proximitat de nodes a unes coordenades especificades."];
+  Node8 -> Node3 [id="edge10_Node000008_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

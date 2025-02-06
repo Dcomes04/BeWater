@@ -1,0 +1,22 @@
+digraph "GestorXarxes.muntarDemanda"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="GestorXarxes.muntarDemanda",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Calcula la demanda de cada node."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GestorXarxes.canonadesSuperiorsZero",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_gestor_xarxes.html#a89c39234ac916e76b50037cd9e93144a",tooltip="Comprova si totes les canonades tenen una demanda superior a zero."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GestorXarxes.omplirMapsDemanda\lCabal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_gestor_xarxes.html#a40bd5b22131d80f1ebae382718174173",tooltip="Omple els mapes de demanda i cabal."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Xarxa.entrades",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_xarxa.html#aded00049e8a19716e598c2b0f521389d",tooltip="Retorna un iterador que permet recórrer totes les canonades que entren al node."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Xarxa.node",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_xarxa.html#a5f4cb1e91855800352838cbaa0b4ef1e",tooltip="Retorna el node de la xarxa amb l'identificador donat."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Xarxa.sortides",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_xarxa.html#a8317b31c1ffe524831a25bad0e975597",tooltip="Retorna un iterador que permet recórrer totes les canonades que surten del node."];
+  Node6 -> Node5 [id="edge7_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node6 [id="edge8_Node000006_Node000006",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,21 @@
+digraph "GestorXarxes.muntarCabal"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GestorXarxes.muntarCabal",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Calcula el cabal de cada node."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GestorXarxes.calcularCabal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_gestor_xarxes.html#a52d764e8b8654ea5d57bb4fe3dc5e71d",tooltip="Calcula el cabal de cada node."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GestorXarxes.excesCabal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_gestor_xarxes.html#ae7846f185b8b2ec2c8e7210146256c44",tooltip="Retorna el subconjunt de canonades de cjtCanonades tals que, si es satisfés la demanda de tots els no..."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SimuladorModeText.excesCabal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#afafbb2f01f00433858f1315810262284",tooltip="Determina les canonades amb excés de cabal."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SimuladorModeText.procesar\lLinea",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#a270115afbf646ce8e561f39294b76561",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SimuladorModeText.simular",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="BeWater.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590",tooltip="Mètode principal que inicia la simulació en mode text."];
+}

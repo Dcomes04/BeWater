@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['cabal_0',['cabal',['../class_origen.html#a4519bdb1ab8f7f01d880ac6a4aca5014',1,'Origen.cabal()'],['../class_xarxa.html#aec89ce83e0daa107099e97d1ad2f92b8',1,'Xarxa.cabal(Node node)']]],
+  ['cabalabonat_1',['cabalAbonat',['../class_xarxa.html#af96338a999076f2e1f553344fe876eb7',1,'Xarxa']]],
+  ['cabalminim_2',['cabalMinim',['../class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0',1,'GestorXarxes']]],
+  ['cabals_3',['cabals',['../class_simulador_mode_text.html#aa25f6e1ae83722e736a799f143ece827',1,'SimuladorModeText']]],
+  ['calculadorademanda_4',['calculadoraDemanda',['../class_xarxa.html#a4e579fd3b3f506a87f72d2acc0afa924',1,'Xarxa']]],
+  ['calcularcabal_5',['calcularCabal',['../class_gestor_xarxes.html#a52d764e8b8654ea5d57bb4fe3dc5e71d',1,'GestorXarxes']]],
+  ['calculardemanda_6',['calcularDemanda',['../class_gestor_xarxes.html#a30db79578ce9a733906a9b9802395716',1,'GestorXarxes']]],
+  ['camimescurt_7',['camiMesCurt',['../class_gestor_xarxes.html#a91ab09eebd5208b7b6f0928c77ce1688',1,'GestorXarxes']]],
+  ['camiobert_8',['camiObert',['../class_gestor_xarxes.html#a07cc5cab59ad664784b9c420d41cad54',1,'GestorXarxes']]],
+  ['canonada_9',['Canonada',['../class_canonada.html#a91d27a5a3996a51c064395de62b1df23',1,'Canonada']]],
+  ['canonadessuperiorszero_10',['canonadesSuperiorsZero',['../class_gestor_xarxes.html#a89c39234ac916e76b50037cd9e93144a',1,'GestorXarxes']]],
+  ['canonadessuperiorszerocabal_11',['canonadesSuperiorsZeroCabal',['../class_gestor_xarxes.html#a413ccedbfa01d002bc730ea3210332a0',1,'GestorXarxes']]],
+  ['canviaretiquetafluxmaxim_12',['canviarEtiquetaFluxMaxim',['../class_xarxa.html#ab71e51fcb597a24d73b4e44bdb065a99',1,'Xarxa']]],
+  ['capacitat_13',['capacitat',['../class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890',1,'Canonada']]],
+  ['compare_14',['compare',['../class_xarxa.html#ac73b7685593cf1c85eeaef5732425c6e',1,'Xarxa']]],
+  ['comprovararbre_15',['comprovarArbre',['../class_simulador_mode_text.html#a73a250b1680ee4d52a93c6bea8d30761',1,'SimuladorModeText']]],
+  ['comprovarcabalminim_16',['comprovarCabalMinim',['../class_simulador_mode_text.html#a4e86b377d5bca7241720db53bfa596c6',1,'SimuladorModeText']]],
+  ['comprovarcicles_17',['comprovarCicles',['../class_simulador_mode_text.html#aeb68364d68ab3b097986c1a512f275f9',1,'SimuladorModeText']]],
+  ['comprovarproximitat_18',['comprovarProximitat',['../class_simulador_mode_text.html#a8f8187e9996c0082f993823d673a3c09',1,'SimuladorModeText']]],
+  ['connectarambcanonada_19',['connectarAmbCanonada',['../class_xarxa.html#a7445d7f3071626b3165c3d74d7213023',1,'Xarxa']]],
+  ['connectarnodes_20',['connectarNodes',['../class_simulador_mode_text.html#ad024d86782ee8276ede3b3be73917dee',1,'SimuladorModeText']]],
+  ['connexio_21',['Connexio',['../class_connexio.html#a6eadac95a6df6516b09129f44407d814',1,'Connexio']]],
+  ['convertirgrausdecimals_22',['convertirGrausDecimals',['../class_coordenades.html#a8725ebb612325e80ac0a46d3094bdc62',1,'Coordenades']]],
+  ['coordenades_23',['coordenades',['../class_coordenades.html#a449a3361caf6236cd50aa47ea0d894bf',1,'Coordenades.Coordenades(int grausLatitud, int minutsLatitud, float segonsLatitud, char direccioLatitud, int grausLongitud, int minutsLongitud, float segonsLongitud, char direccioLongitud)'],['../class_coordenades.html#a3a9ac695fb355d2efa4d80cc4f009be3',1,'Coordenades.Coordenades(float latitud, float longitud)'],['../class_node.html#a4b2086f82194799e178bcb0985c6436c',1,'Node.coordenades()']]],
+  ['crearcanonadesflux_24',['crearCanonadesFlux',['../class_xarxa.html#a67064818e9beca31a71e54be558c450a',1,'Xarxa']]]
+];

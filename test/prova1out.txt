@@ -1,0 +1,13 @@
+O1 no té cicles
+O1 és un arbre
+Cabal mínim
+50.0
+exces
+C12-T12
+exces
+C11-C12
+exces
+O4 no té cicles
+O4 no és un arbre
+exces
+C12-T12

@@ -1,0 +1,27 @@
+var class_simulador_mode_text =
+[
+    [ "abonarClient", "class_simulador_mode_text.html#a5de4fe8baa096f1e42dd998119cedb3e", null ],
+    [ "afegirConnexio", "class_simulador_mode_text.html#a1b7e6992e2ee07a2ea8e0cc306049ba2", null ],
+    [ "afegirOrigen", "class_simulador_mode_text.html#a48a9b93566c58d81fb4b42579a81ccd7", null ],
+    [ "afegirTerminal", "class_simulador_mode_text.html#a0c84e281d492ecd2b4e0d3a25f06becb", null ],
+    [ "aixetesTancar", "class_simulador_mode_text.html#a867d4f6ca55ba64761b76db6d8e005db", null ],
+    [ "backtrack", "class_simulador_mode_text.html#a41f9a304cada6d87d0b5c7bc29a21c35", null ],
+    [ "cabals", "class_simulador_mode_text.html#aa25f6e1ae83722e736a799f143ece827", null ],
+    [ "comprovarArbre", "class_simulador_mode_text.html#a73a250b1680ee4d52a93c6bea8d30761", null ],
+    [ "comprovarCabalMinim", "class_simulador_mode_text.html#a4e86b377d5bca7241720db53bfa596c6", null ],
+    [ "comprovarCicles", "class_simulador_mode_text.html#aeb68364d68ab3b097986c1a512f275f9", null ],
+    [ "comprovarProximitat", "class_simulador_mode_text.html#a8f8187e9996c0082f993823d673a3c09", null ],
+    [ "connectarNodes", "class_simulador_mode_text.html#ad024d86782ee8276ede3b3be73917dee", null ],
+    [ "demanda", "class_simulador_mode_text.html#aeafd4af3db5d6e3739010aba0fee2a2d", null ],
+    [ "dibuixarXarxa", "class_simulador_mode_text.html#a11d6710bddae748a9200b0d146472605", null ],
+    [ "excesCabal", "class_simulador_mode_text.html#afafbb2f01f00433858f1315810262284", null ],
+    [ "fluxMaxim", "class_simulador_mode_text.html#a2184f347d4be64eee2bf5e7477acb235", null ],
+    [ "obrirAixeta", "class_simulador_mode_text.html#abe97097ea7bc03a61e2d2d54c3ff5dda", null ],
+    [ "ordeCabal", "class_simulador_mode_text.html#abb1ad801f9e7c77af87140ba46299e72", null ],
+    [ "ordeDemanda", "class_simulador_mode_text.html#a56ceb725005d8a1ef9e76f0cd99344cc", null ],
+    [ "parsearCoordenades", "class_simulador_mode_text.html#a237dd00801639c016293b4b264a68d32", null ],
+    [ "procesarLinea", "class_simulador_mode_text.html#a270115afbf646ce8e561f39294b76561", null ],
+    [ "simular", "class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1", null ],
+    [ "tancarAixeta", "class_simulador_mode_text.html#a9effd54a4f80cd2d332a5018115757e3", null ],
+    [ "xarxa", "class_simulador_mode_text.html#a82360c13476f61547ce5b3d6a8774f8d", null ]
+];
